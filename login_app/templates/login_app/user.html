@@ -1,0 +1,18 @@
+{% load static %}
+<!doctype html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>あなたの情報</title>
+</head>
+<body>
+    <h1>{{user.username}}</h1>
+    <p>連絡先：{{user.email}}</p>
+    <p>アカウント作成日：{{user.date_joined}}</p>
+    <p><a href='/login_app/other/'>他のユーザの情報</a></p>
+    <p><a href='/login_app/logout/'>ログアウト</a></p>
+    user.html
+
+</body>
+
+</html>
