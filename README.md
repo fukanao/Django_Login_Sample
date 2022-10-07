@@ -1,0 +1,2 @@
+# Django_Login_Sample
+Djangoでのログイン機能のサンプル
