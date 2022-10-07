@@ -73,7 +73,7 @@ class MyOtherView(LoginRequiredMixin, TemplateView):
 class Portal_1_View(GroupUserForPortal1Mixin, TemplateView):
     template_name = 'login_app/portal_1.html'
 
-class Portal_2_View(GroupUserForPortal1Mixin, TemplateView):
+class Portal_2_View(GroupUserForPortal2Mixin, TemplateView):
     template_name = 'login_app/portal_2.html'
 
 class Portal_View(LoginRequiredMixin, TemplateView):
